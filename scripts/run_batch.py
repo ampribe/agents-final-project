@@ -12,6 +12,7 @@ import yaml
 from evaluation.config import import_agent, load_config
 from evaluation.environment import setup_venv
 from evaluation.evaluator import evaluate_solver
+from evaluation.logging import Logger
 
 
 def parse_agent_specs(agent_specs: list[str]) -> dict[str, str]:
@@ -109,7 +110,20 @@ def main():
             python_path = setup_venv(venv_path, config.get("packages", []))
 
             agent_cls = import_agent(agent_path)
-            agent = agent_cls(model=model, task=task, max_steps=max_steps)
+
+            logger = Logger(
+                agent=agent_name,
+                task=task,
+                run_dir=run_dir,
+                echo=True
+            )
+
+            agent = agent_cls(
+                model=model,
+                task=task,
+                max_steps=max_steps,
+                logger=logger
+            )
 
             solver_path = None
             run_error = None
@@ -122,6 +136,8 @@ def main():
                 )
             except Exception as exc:  # noqa: BLE001
                 run_error = f"agent_error: {exc}"
+            finally:
+                logger.serialize()
 
             eval_result = None
             if solver_path:
