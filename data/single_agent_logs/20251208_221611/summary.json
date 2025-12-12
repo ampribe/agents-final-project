@@ -1,0 +1,42 @@
+{
+  "run_id": "20251208_221611_NewAgent_shortest_path_dijkstra",
+  "agent": "NewAgent",
+  "task": "shortest_path_dijkstra",
+  "timestamp": "20251208_221611",
+  "num_steps": 38,
+  "evaluation": {
+    "pass_rate": 100.0,
+    "num_correct": 3,
+    "num_total": 3,
+    "median_speedup": null,
+    "results": [
+      {
+        "n": 50,
+        "seed": 42,
+        "reference_time_ms": 2.135834190994501,
+        "agent_time_ms": 4.397582961246371,
+        "speedup": 0.48568366073284014,
+        "correct": true,
+        "validation_error": null
+      },
+      {
+        "n": 100,
+        "seed": 43,
+        "reference_time_ms": 6.713832961395383,
+        "agent_time_ms": 6.1504170298576355,
+        "speedup": 1.091606134803966,
+        "correct": true,
+        "validation_error": null
+      },
+      {
+        "n": 150,
+        "seed": 44,
+        "reference_time_ms": 12.058542110025883,
+        "agent_time_ms": 17.742957919836044,
+        "speedup": 0.679624117044477,
+        "correct": true,
+        "validation_error": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "run_id": "20251208_223025_NewAgent_matrix_sqrt",
+  "agent": "NewAgent",
+  "task": "matrix_sqrt",
+  "timestamp": "20251208_223025",
+  "num_steps": 24,
+  "evaluation": {
+    "pass_rate": 100.0,
+    "num_correct": 3,
+    "num_total": 3,
+    "median_speedup": null,
+    "results": [
+      {
+        "n": 50,
+        "seed": 42,
+        "reference_time_ms": 5.315917078405619,
+        "agent_time_ms": 4.102082923054695,
+        "speedup": 1.2959067815350302,
+        "correct": true,
+        "validation_error": null
+      },
+      {
+        "n": 100,
+        "seed": 43,
+        "reference_time_ms": 19.869625102728605,
+        "agent_time_ms": 16.88145799562335,
+        "speedup": 1.1770088287326819,
+        "correct": true,
+        "validation_error": null
+      },
+      {
+        "n": 150,
+        "seed": 44,
+        "reference_time_ms": 24.295957991853356,
+        "agent_time_ms": 24.549165973439813,
+        "speedup": 0.9896856788592978,
+        "correct": true,
+        "validation_error": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "run_id": "20251209_033924_RefinedMultiAgent_graph_laplacian",
+  "agent": "RefinedMultiAgent",
+  "task": "graph_laplacian",
+  "timestamp": "20251209_033924",
+  "num_steps": 58,
+  "evaluation": {
+    "pass_rate": 100.0,
+    "num_correct": 3,
+    "num_total": 3,
+    "median_speedup": null,
+    "results": [
+      {
+        "n": 50,
+        "seed": 42,
+        "reference_time_ms": 0.36920816637575626,
+        "agent_time_ms": 0.30137505382299423,
+        "speedup": 1.2250787239762793,
+        "correct": true,
+        "validation_error": null
+      },
+      {
+        "n": 100,
+        "seed": 43,
+        "reference_time_ms": 0.481416005641222,
+        "agent_time_ms": 0.454458175227046,
+        "speedup": 1.0593186169457902,
+        "correct": true,
+        "validation_error": null
+      },
+      {
+        "n": 150,
+        "seed": 44,
+        "reference_time_ms": 0.6147921085357666,
+        "agent_time_ms": 0.5804160609841347,
+        "speedup": 1.0592265615347463,
+        "correct": true,
+        "validation_error": null
+      }
+    ]
+  }
+}

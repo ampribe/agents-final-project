@@ -1,0 +1,42 @@
+{
+  "run_id": "20251208_225904_NewAgent_unit_simplex_projection",
+  "agent": "NewAgent",
+  "task": "unit_simplex_projection",
+  "timestamp": "20251208_225904",
+  "num_steps": 24,
+  "evaluation": {
+    "pass_rate": 100.0,
+    "num_correct": 3,
+    "num_total": 3,
+    "median_speedup": null,
+    "results": [
+      {
+        "n": 50,
+        "seed": 42,
+        "reference_time_ms": 0.024124979972839355,
+        "agent_time_ms": 0.018208054825663567,
+        "speedup": 1.3249619579811516,
+        "correct": true,
+        "validation_error": null
+      },
+      {
+        "n": 100,
+        "seed": 43,
+        "reference_time_ms": 0.02191588282585144,
+        "agent_time_ms": 0.019292114302515984,
+        "speedup": 1.1360021240903222,
+        "correct": true,
+        "validation_error": null
+      },
+      {
+        "n": 150,
+        "seed": 44,
+        "reference_time_ms": 0.02583279274404049,
+        "agent_time_ms": 0.023208092898130417,
+        "speedup": 1.1130941632055218,
+        "correct": true,
+        "validation_error": null
+      }
+    ]
+  }
+}

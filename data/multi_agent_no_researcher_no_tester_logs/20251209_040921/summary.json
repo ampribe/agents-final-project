@@ -1,0 +1,42 @@
+{
+  "run_id": "20251209_040923_RefinedMultiAgent_qr_factorization",
+  "agent": "RefinedMultiAgent",
+  "task": "qr_factorization",
+  "timestamp": "20251209_040923",
+  "num_steps": 53,
+  "evaluation": {
+    "pass_rate": 0.0,
+    "num_correct": 0,
+    "num_total": 3,
+    "median_speedup": null,
+    "results": [
+      {
+        "n": 50,
+        "seed": 42,
+        "reference_time_ms": 0.2641670871526003,
+        "agent_time_ms": null,
+        "speedup": null,
+        "error": "The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()",
+        "correct": false
+      },
+      {
+        "n": 100,
+        "seed": 43,
+        "reference_time_ms": 0.970291905105114,
+        "agent_time_ms": null,
+        "speedup": null,
+        "error": "The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()",
+        "correct": false
+      },
+      {
+        "n": 150,
+        "seed": 44,
+        "reference_time_ms": 1.6450830735266209,
+        "agent_time_ms": null,
+        "speedup": null,
+        "error": "The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()",
+        "correct": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "run_id": "20251208_230307_NewAgent_markowitz",
+  "agent": "NewAgent",
+  "task": "markowitz",
+  "timestamp": "20251208_230307",
+  "num_steps": 27,
+  "evaluation": {
+    "pass_rate": 100.0,
+    "num_correct": 3,
+    "num_total": 3,
+    "median_speedup": null,
+    "results": [
+      {
+        "n": 50,
+        "seed": 42,
+        "reference_time_ms": 19.941499922424555,
+        "agent_time_ms": 3.013041103258729,
+        "speedup": 6.618396244530815,
+        "correct": true,
+        "validation_error": null
+      },
+      {
+        "n": 100,
+        "seed": 43,
+        "reference_time_ms": 5.615500034764409,
+        "agent_time_ms": 5.93625009059906,
+        "speedup": 0.9459675635393787,
+        "correct": true,
+        "validation_error": null
+      },
+      {
+        "n": 150,
+        "seed": 44,
+        "reference_time_ms": 10.918125044554472,
+        "agent_time_ms": 9.055875008925796,
+        "speedup": 1.2056399888241804,
+        "correct": true,
+        "validation_error": null
+      }
+    ]
+  }
+}

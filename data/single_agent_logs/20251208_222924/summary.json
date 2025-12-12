@@ -1,0 +1,42 @@
+{
+  "run_id": "20251208_222924_NewAgent_lu_factorization",
+  "agent": "NewAgent",
+  "task": "lu_factorization",
+  "timestamp": "20251208_222924",
+  "num_steps": 30,
+  "evaluation": {
+    "pass_rate": 100.0,
+    "num_correct": 3,
+    "num_total": 3,
+    "median_speedup": null,
+    "results": [
+      {
+        "n": 50,
+        "seed": 42,
+        "reference_time_ms": 0.4202919080853462,
+        "agent_time_ms": 0.5178339779376984,
+        "speedup": 0.811634473580087,
+        "correct": true,
+        "validation_error": null
+      },
+      {
+        "n": 100,
+        "seed": 43,
+        "reference_time_ms": 1.6598750371485949,
+        "agent_time_ms": 0.7916667964309454,
+        "speedup": 2.096683913777582,
+        "correct": true,
+        "validation_error": null
+      },
+      {
+        "n": 150,
+        "seed": 44,
+        "reference_time_ms": 2.45412508957088,
+        "agent_time_ms": 2.1477090194821358,
+        "speedup": 1.1426711287745248,
+        "correct": true,
+        "validation_error": null
+      }
+    ]
+  }
+}

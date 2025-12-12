@@ -1,0 +1,42 @@
+{
+  "run_id": "20251209_032411_RefinedMultiAgent_toeplitz_solver",
+  "agent": "RefinedMultiAgent",
+  "task": "toeplitz_solver",
+  "timestamp": "20251209_032411",
+  "num_steps": 158,
+  "evaluation": {
+    "pass_rate": 100.0,
+    "num_correct": 3,
+    "num_total": 3,
+    "median_speedup": null,
+    "results": [
+      {
+        "n": 50,
+        "seed": 42,
+        "reference_time_ms": 0.1826668158173561,
+        "agent_time_ms": 0.11012493632733822,
+        "speedup": 1.6587234636339996,
+        "correct": true,
+        "validation_error": null
+      },
+      {
+        "n": 100,
+        "seed": 43,
+        "reference_time_ms": 0.11562486179172993,
+        "agent_time_ms": 0.05362485535442829,
+        "speedup": 2.156180394847102,
+        "correct": true,
+        "validation_error": null
+      },
+      {
+        "n": 150,
+        "seed": 44,
+        "reference_time_ms": 0.17095915973186493,
+        "agent_time_ms": 0.13545900583267212,
+        "speedup": 1.2620730432869478,
+        "correct": true,
+        "validation_error": null
+      }
+    ]
+  }
+}

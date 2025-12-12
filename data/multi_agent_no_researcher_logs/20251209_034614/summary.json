@@ -1,0 +1,42 @@
+{
+  "run_id": "20251209_034615_RefinedMultiAgent_lu_factorization",
+  "agent": "RefinedMultiAgent",
+  "task": "lu_factorization",
+  "timestamp": "20251209_034615",
+  "num_steps": 101,
+  "evaluation": {
+    "pass_rate": 100.0,
+    "num_correct": 3,
+    "num_total": 3,
+    "median_speedup": null,
+    "results": [
+      {
+        "n": 50,
+        "seed": 42,
+        "reference_time_ms": 0.26358291506767273,
+        "agent_time_ms": 0.7817919831722975,
+        "speedup": 0.3371522358135799,
+        "correct": true,
+        "validation_error": null
+      },
+      {
+        "n": 100,
+        "seed": 43,
+        "reference_time_ms": 1.525582978501916,
+        "agent_time_ms": 4.647958092391491,
+        "speedup": 0.3282264917575806,
+        "correct": true,
+        "validation_error": null
+      },
+      {
+        "n": 150,
+        "seed": 44,
+        "reference_time_ms": 21.950915921479464,
+        "agent_time_ms": 4.182458156719804,
+        "speedup": 5.248328877172799,
+        "correct": true,
+        "validation_error": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "run_id": "20251209_031520_RefinedMultiAgent_cholesky_factorization",
+  "agent": "RefinedMultiAgent",
+  "task": "cholesky_factorization",
+  "timestamp": "20251209_031520",
+  "num_steps": 89,
+  "evaluation": {
+    "pass_rate": 100.0,
+    "num_correct": 3,
+    "num_total": 3,
+    "median_speedup": null,
+    "results": [
+      {
+        "n": 50,
+        "seed": 42,
+        "reference_time_ms": 0.11987495236098766,
+        "agent_time_ms": 0.3132498823106289,
+        "speedup": 0.38268155594106723,
+        "correct": true,
+        "validation_error": null
+      },
+      {
+        "n": 100,
+        "seed": 43,
+        "reference_time_ms": 0.14258292503654957,
+        "agent_time_ms": 0.48795901238918304,
+        "speedup": 0.2922026674708269,
+        "correct": true,
+        "validation_error": null
+      },
+      {
+        "n": 150,
+        "seed": 44,
+        "reference_time_ms": 0.14070793986320496,
+        "agent_time_ms": 1.3403750490397215,
+        "speedup": 0.10497654366515675,
+        "correct": true,
+        "validation_error": null
+      }
+    ]
+  }
+}

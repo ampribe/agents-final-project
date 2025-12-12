@@ -1,0 +1,42 @@
+{
+  "run_id": "20251208_223057_NewAgent_toeplitz_solver",
+  "agent": "NewAgent",
+  "task": "toeplitz_solver",
+  "timestamp": "20251208_223057",
+  "num_steps": 30,
+  "evaluation": {
+    "pass_rate": 100.0,
+    "num_correct": 3,
+    "num_total": 3,
+    "median_speedup": null,
+    "results": [
+      {
+        "n": 50,
+        "seed": 42,
+        "reference_time_ms": 0.1347081270068884,
+        "agent_time_ms": 0.07095886394381523,
+        "speedup": 1.8983974590341441,
+        "correct": true,
+        "validation_error": null
+      },
+      {
+        "n": 100,
+        "seed": 43,
+        "reference_time_ms": 0.048832967877388,
+        "agent_time_ms": 0.0439169816672802,
+        "speedup": 1.1119381620383624,
+        "correct": true,
+        "validation_error": null
+      },
+      {
+        "n": 150,
+        "seed": 44,
+        "reference_time_ms": 0.07724994793534279,
+        "agent_time_ms": 0.07383408956229687,
+        "speedup": 1.046263973637324,
+        "correct": true,
+        "validation_error": null
+      }
+    ]
+  }
+}

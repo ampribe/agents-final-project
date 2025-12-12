@@ -1,0 +1,42 @@
+{
+  "run_id": "20251208_225808_NewAgent_dct_type_I_scipy_fftpack",
+  "agent": "NewAgent",
+  "task": "dct_type_I_scipy_fftpack",
+  "timestamp": "20251208_225808",
+  "num_steps": 27,
+  "evaluation": {
+    "pass_rate": 100.0,
+    "num_correct": 3,
+    "num_total": 3,
+    "median_speedup": null,
+    "results": [
+      {
+        "n": 50,
+        "seed": 42,
+        "reference_time_ms": 0.1502500381320715,
+        "agent_time_ms": 0.06562494672834873,
+        "speedup": 2.28952624912633,
+        "correct": true,
+        "validation_error": null
+      },
+      {
+        "n": 100,
+        "seed": 43,
+        "reference_time_ms": 0.17799995839595795,
+        "agent_time_ms": 0.16929185949265957,
+        "speedup": 1.0514383794317999,
+        "correct": true,
+        "validation_error": null
+      },
+      {
+        "n": 150,
+        "seed": 44,
+        "reference_time_ms": 0.36270800046622753,
+        "agent_time_ms": 0.3349999897181988,
+        "speedup": 1.0827104823834075,
+        "correct": true,
+        "validation_error": null
+      }
+    ]
+  }
+}

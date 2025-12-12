@@ -1,0 +1,42 @@
+{
+  "run_id": "20251208_230019_NewAgent_chebyshev_center",
+  "agent": "NewAgent",
+  "task": "chebyshev_center",
+  "timestamp": "20251208_230019",
+  "num_steps": 36,
+  "evaluation": {
+    "pass_rate": 100.0,
+    "num_correct": 3,
+    "num_total": 3,
+    "median_speedup": null,
+    "results": [
+      {
+        "n": 50,
+        "seed": 42,
+        "reference_time_ms": 4.798582987859845,
+        "agent_time_ms": 3.972416976466775,
+        "speedup": 1.2079756521753402,
+        "correct": true,
+        "validation_error": null
+      },
+      {
+        "n": 100,
+        "seed": 43,
+        "reference_time_ms": 22.47704192996025,
+        "agent_time_ms": 9.882041020318866,
+        "speedup": 2.2745343683298107,
+        "correct": true,
+        "validation_error": null
+      },
+      {
+        "n": 150,
+        "seed": 44,
+        "reference_time_ms": 47.279082937166095,
+        "agent_time_ms": 28.143875068053603,
+        "speedup": 1.6799066519035633,
+        "correct": true,
+        "validation_error": null
+      }
+    ]
+  }
+}

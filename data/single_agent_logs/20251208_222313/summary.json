@@ -1,0 +1,42 @@
+{
+  "run_id": "20251208_222318_NewAgent_stable_matching",
+  "agent": "NewAgent",
+  "task": "stable_matching",
+  "timestamp": "20251208_222318",
+  "num_steps": 52,
+  "evaluation": {
+    "pass_rate": 100.0,
+    "num_correct": 3,
+    "num_total": 3,
+    "median_speedup": null,
+    "results": [
+      {
+        "n": 50,
+        "seed": 42,
+        "reference_time_ms": 0.10312488302588463,
+        "agent_time_ms": 0.10129180736839771,
+        "speedup": 1.0180969784734912,
+        "correct": true,
+        "validation_error": null
+      },
+      {
+        "n": 100,
+        "seed": 43,
+        "reference_time_ms": 0.37229200825095177,
+        "agent_time_ms": 0.37325010634958744,
+        "speedup": 0.9974330935682619,
+        "correct": true,
+        "validation_error": null
+      },
+      {
+        "n": 150,
+        "seed": 44,
+        "reference_time_ms": 0.6495409179478884,
+        "agent_time_ms": 0.6387911271303892,
+        "speedup": 1.016828334585344,
+        "correct": true,
+        "validation_error": null
+      }
+    ]
+  }
+}

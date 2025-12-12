@@ -1,0 +1,42 @@
+{
+  "run_id": "20251208_223321_NewAgent_rotate_2d",
+  "agent": "NewAgent",
+  "task": "rotate_2d",
+  "timestamp": "20251208_223321",
+  "num_steps": 38,
+  "evaluation": {
+    "pass_rate": 100.0,
+    "num_correct": 3,
+    "num_total": 3,
+    "median_speedup": null,
+    "results": [
+      {
+        "n": 50,
+        "seed": 42,
+        "reference_time_ms": 0.5709589459002018,
+        "agent_time_ms": 0.6637079641222954,
+        "speedup": 0.860256282528194,
+        "correct": true,
+        "validation_error": null
+      },
+      {
+        "n": 100,
+        "seed": 43,
+        "reference_time_ms": 1.936791930347681,
+        "agent_time_ms": 2.774209016934037,
+        "speedup": 0.6981420356308115,
+        "correct": true,
+        "validation_error": null
+      },
+      {
+        "n": 150,
+        "seed": 44,
+        "reference_time_ms": 3.1284999568015337,
+        "agent_time_ms": 4.111042013391852,
+        "speedup": 0.7609992665145099,
+        "correct": true,
+        "validation_error": null
+      }
+    ]
+  }
+}

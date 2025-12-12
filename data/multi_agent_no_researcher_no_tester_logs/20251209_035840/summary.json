@@ -1,0 +1,42 @@
+{
+  "run_id": "20251209_035841_RefinedMultiAgent_stable_matching",
+  "agent": "RefinedMultiAgent",
+  "task": "stable_matching",
+  "timestamp": "20251209_035841",
+  "num_steps": 93,
+  "evaluation": {
+    "pass_rate": 100.0,
+    "num_correct": 3,
+    "num_total": 3,
+    "median_speedup": null,
+    "results": [
+      {
+        "n": 50,
+        "seed": 42,
+        "reference_time_ms": 0.11929101310670376,
+        "agent_time_ms": 0.11762487702071667,
+        "speedup": 1.0141648274428685,
+        "correct": true,
+        "validation_error": null
+      },
+      {
+        "n": 100,
+        "seed": 43,
+        "reference_time_ms": 0.4924170207232237,
+        "agent_time_ms": 0.7407909724861383,
+        "speedup": 0.6647179015568224,
+        "correct": true,
+        "validation_error": null
+      },
+      {
+        "n": 150,
+        "seed": 44,
+        "reference_time_ms": 0.8947909809648991,
+        "agent_time_ms": 1.0554580949246883,
+        "speedup": 0.8477749948270058,
+        "correct": true,
+        "validation_error": null
+      }
+    ]
+  }
+}

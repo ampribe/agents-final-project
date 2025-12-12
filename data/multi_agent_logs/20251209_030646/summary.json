@@ -1,0 +1,42 @@
+{
+  "run_id": "20251209_030647_RefinedMultiAgent_shortest_path_dijkstra",
+  "agent": "RefinedMultiAgent",
+  "task": "shortest_path_dijkstra",
+  "timestamp": "20251209_030647",
+  "num_steps": 88,
+  "evaluation": {
+    "pass_rate": 100.0,
+    "num_correct": 3,
+    "num_total": 3,
+    "median_speedup": null,
+    "results": [
+      {
+        "n": 50,
+        "seed": 42,
+        "reference_time_ms": 2.512875013053417,
+        "agent_time_ms": 2.3279159795492887,
+        "speedup": 1.0794526242050793,
+        "correct": true,
+        "validation_error": null
+      },
+      {
+        "n": 100,
+        "seed": 43,
+        "reference_time_ms": 10.458834003657103,
+        "agent_time_ms": 9.940250078216195,
+        "speedup": 1.0521701085345299,
+        "correct": true,
+        "validation_error": null
+      },
+      {
+        "n": 150,
+        "seed": 44,
+        "reference_time_ms": 31.09612502157688,
+        "agent_time_ms": 34.531124867498875,
+        "speedup": 0.9005245308659187,
+        "correct": true,
+        "validation_error": null
+      }
+    ]
+  }
+}

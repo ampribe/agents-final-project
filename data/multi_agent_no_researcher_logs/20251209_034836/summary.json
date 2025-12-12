@@ -1,0 +1,42 @@
+{
+  "run_id": "20251209_034837_RefinedMultiAgent_matrix_sqrt",
+  "agent": "RefinedMultiAgent",
+  "task": "matrix_sqrt",
+  "timestamp": "20251209_034837",
+  "num_steps": 260,
+  "evaluation": {
+    "pass_rate": 100.0,
+    "num_correct": 3,
+    "num_total": 3,
+    "median_speedup": null,
+    "results": [
+      {
+        "n": 50,
+        "seed": 42,
+        "reference_time_ms": 5.665249889716506,
+        "agent_time_ms": 9.450791869312525,
+        "speedup": 0.599447111740131,
+        "correct": true,
+        "validation_error": null
+      },
+      {
+        "n": 100,
+        "seed": 43,
+        "reference_time_ms": 40.887874783948064,
+        "agent_time_ms": 50.60091591440141,
+        "speedup": 0.8080461399773015,
+        "correct": true,
+        "validation_error": null
+      },
+      {
+        "n": 150,
+        "seed": 44,
+        "reference_time_ms": 65.87924994528294,
+        "agent_time_ms": 109.87966693937778,
+        "speedup": 0.5995581510237875,
+        "correct": true,
+        "validation_error": null
+      }
+    ]
+  }
+}

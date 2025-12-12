@@ -1,0 +1,42 @@
+{
+  "run_id": "20251208_223426_NewAgent_shift_2d",
+  "agent": "NewAgent",
+  "task": "shift_2d",
+  "timestamp": "20251208_223426",
+  "num_steps": 33,
+  "evaluation": {
+    "pass_rate": 0.0,
+    "num_correct": 0,
+    "num_total": 3,
+    "median_speedup": null,
+    "results": [
+      {
+        "n": 50,
+        "seed": 42,
+        "reference_time_ms": 0.3927089273929596,
+        "agent_time_ms": 0.003917142748832703,
+        "speedup": 100.25392296718972,
+        "correct": false,
+        "validation_error": null
+      },
+      {
+        "n": 100,
+        "seed": 43,
+        "reference_time_ms": 1.3882920611649752,
+        "agent_time_ms": 0.004791887477040291,
+        "speedup": 289.7171663184491,
+        "correct": false,
+        "validation_error": null
+      },
+      {
+        "n": 150,
+        "seed": 44,
+        "reference_time_ms": 2.461999887600541,
+        "agent_time_ms": 0.006250105798244476,
+        "speedup": 393.9133139621517,
+        "correct": false,
+        "validation_error": null
+      }
+    ]
+  }
+}

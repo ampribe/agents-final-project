@@ -1,0 +1,42 @@
+{
+  "run_id": "20251209_035628_RefinedMultiAgent_minimum_spanning_tree",
+  "agent": "RefinedMultiAgent",
+  "task": "minimum_spanning_tree",
+  "timestamp": "20251209_035628",
+  "num_steps": 41,
+  "evaluation": {
+    "pass_rate": 100.0,
+    "num_correct": 3,
+    "num_total": 3,
+    "median_speedup": null,
+    "results": [
+      {
+        "n": 50,
+        "seed": 42,
+        "reference_time_ms": 0.8387500420212746,
+        "agent_time_ms": 0.19320892170071602,
+        "speedup": 4.341155856769974,
+        "correct": true,
+        "validation_error": null
+      },
+      {
+        "n": 100,
+        "seed": 43,
+        "reference_time_ms": 3.8706250488758087,
+        "agent_time_ms": 0.7813330739736557,
+        "speedup": 4.95387329399845,
+        "correct": true,
+        "validation_error": null
+      },
+      {
+        "n": 150,
+        "seed": 44,
+        "reference_time_ms": 9.429665980860591,
+        "agent_time_ms": 2.8456670697778463,
+        "speedup": 3.3136926244842617,
+        "correct": true,
+        "validation_error": null
+      }
+    ]
+  }
+}

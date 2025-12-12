@@ -1,0 +1,42 @@
+{
+  "run_id": "20251208_222820_NewAgent_qr_factorization",
+  "agent": "NewAgent",
+  "task": "qr_factorization",
+  "timestamp": "20251208_222820",
+  "num_steps": 39,
+  "evaluation": {
+    "pass_rate": 100.0,
+    "num_correct": 3,
+    "num_total": 3,
+    "median_speedup": null,
+    "results": [
+      {
+        "n": 50,
+        "seed": 42,
+        "reference_time_ms": 0.21062488667666912,
+        "agent_time_ms": 0.1871669664978981,
+        "speedup": 1.1253315187914554,
+        "correct": true,
+        "validation_error": null
+      },
+      {
+        "n": 100,
+        "seed": 43,
+        "reference_time_ms": 0.8526251185685396,
+        "agent_time_ms": 0.5722078494727612,
+        "speedup": 1.490061905571827,
+        "correct": true,
+        "validation_error": null
+      },
+      {
+        "n": 150,
+        "seed": 44,
+        "reference_time_ms": 1.1605829931795597,
+        "agent_time_ms": 1.0730419307947159,
+        "speedup": 1.0815821449959642,
+        "correct": true,
+        "validation_error": null
+      }
+    ]
+  }
+}

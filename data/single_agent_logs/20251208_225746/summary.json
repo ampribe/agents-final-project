@@ -1,0 +1,42 @@
+{
+  "run_id": "20251208_225747_NewAgent_fft_real_scipy_fftpack",
+  "agent": "NewAgent",
+  "task": "fft_real_scipy_fftpack",
+  "timestamp": "20251208_225747",
+  "num_steps": 24,
+  "evaluation": {
+    "pass_rate": 100.0,
+    "num_correct": 3,
+    "num_total": 3,
+    "median_speedup": null,
+    "results": [
+      {
+        "n": 50,
+        "seed": 42,
+        "reference_time_ms": 0.08004205301404,
+        "agent_time_ms": 0.06820796988904476,
+        "speedup": 1.1735000051203102,
+        "correct": true,
+        "validation_error": null
+      },
+      {
+        "n": 100,
+        "seed": 43,
+        "reference_time_ms": 0.18854206427931786,
+        "agent_time_ms": 0.22437493316829205,
+        "speedup": 0.8402991440131247,
+        "correct": true,
+        "validation_error": null
+      },
+      {
+        "n": 150,
+        "seed": 44,
+        "reference_time_ms": 0.377916032448411,
+        "agent_time_ms": 0.5979579873383045,
+        "speedup": 0.6320110115605811,
+        "correct": true,
+        "validation_error": null
+      }
+    ]
+  }
+}
