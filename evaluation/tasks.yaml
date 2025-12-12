@@ -1,0 +1,11 @@
+tasks:
+  - minimum_spanning_tree
+  - shortest_path_dijkstra
+  - stable_matching
+  - graph_laplacian
+  - pagerank
+  - cholesky_factorization
+  - qr_factorization
+  - lu_factorization
+  - matrix_sqrt
+  - toeplitz_solver

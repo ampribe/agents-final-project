@@ -1,0 +1,36 @@
+[project]
+name = "agents-final-project"
+version = "0.1.0"
+description = "Final project for AI Agents for Science"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "globus-sdk>=4.2.0",
+    "openai>=2.9.0",
+    "python-dotenv>=1.2.1",
+    "pyyaml>=6.0.3",
+    "numpy",
+    "scipy",
+    "scikit-learn",
+    "pandas",
+    "cvxpy",
+    "pulp",
+    "ortools",
+    "python-sat",
+    "pyomo",
+    "ecos",
+    "highspy",
+    "networkx",
+    "sympy",
+    "pot",
+    "cryptography",
+    "hdbscan",
+    "cython",
+    "numba",
+    "orjson",
+    "filelock",
+    "fastmcp>=2.13.3",
+    "matplotlib>=3.10.7",
+    "seaborn>=0.13.2",
+]
+

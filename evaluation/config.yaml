@@ -1,0 +1,35 @@
+# agent virtual environment config
+packages:
+  - numpy
+  - scipy
+  - scikit-learn
+  - pandas
+  - cvxpy
+  - pulp
+  - ortools
+  - python-sat
+  - pyomo
+  - ecos
+  - highspy
+  - networkx
+  - sympy
+  - pot
+  - cryptography
+  - hdbscan
+  - cython
+  - numba
+  # Avoid big packages
+  # - torch
+  # - jax
+  # - diffrax
+  # - faiss-cpu
+  # - dask
+
+
+  # Utilities for eval
+  - pyyaml
+  - orjson
+  - filelock
+output:
+  base_dir: "."
+  format: "solver.py"

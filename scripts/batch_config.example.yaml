@@ -1,0 +1,16 @@
+# Example batch config for scripts/run_batch.py
+
+tasks:
+  - feedback_controller_design
+  # - another_task
+
+agents:
+  simple: agents.simple_agent:SimpleAgent
+  # multi: agents.multi_agent:MultiAgent
+
+runs_dir: runs
+model: openai/gpt-oss-20b
+max_steps: 30
+num_problems: 5
+algotune_repo: repos/AlgoTune
+
